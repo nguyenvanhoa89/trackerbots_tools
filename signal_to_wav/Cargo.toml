@@ -1,0 +1,13 @@
+[package]
+authors = ["Michael Chesser"]
+name = "signal_to_wav"
+version = "0.1.0"
+
+[dependencies]
+byteorder = "0.5.1"
+clap = "2.2.5"
+hound = "1.1.0"
+sample = "0.5.1"
+num = "0.1.32"
+dsp_filters = { git = "https://github.com/mchesser/trackerbots_core" }
+iq_converter = { path = "../iq_converter" }

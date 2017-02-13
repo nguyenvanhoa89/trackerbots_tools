@@ -1,0 +1,14 @@
+[package]
+authors = ["Michael Chesser"]
+name = "viscope"
+version = "0.2.0"
+
+[dependencies]
+glium = "0.15"
+imgui = "0.0.10"
+sample = "0.5"
+dsp_filters = { git = "https://github.com/mchesser/trackerbots_core" }
+iq_converter = { path = "../iq_converter" }
+
+[replace]
+"glutin:0.6.1" = { git = "https://github.com/mchesser/glutin" }

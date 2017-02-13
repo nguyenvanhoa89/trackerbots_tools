@@ -1,0 +1,9 @@
+[package]
+authors = ["Michael Chesser"]
+version = "0.1.0"
+name = "iq_converter"
+
+[dependencies]
+byteorder = "0.5.1"
+clap = "2.2.5"
+num = "0.1.31"
